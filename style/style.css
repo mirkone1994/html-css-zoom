@@ -3,3 +3,40 @@
     margin: 0; 
     padding: 0;
 }
+header {
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #000;
+    color: #fff;
+}
+header span {
+
+}
+main {
+    height: calc(100vh - 160px);
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+}
+main .row {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+main .row .user {
+    width: 20%;
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../img/white-background-zoom-background-template-des-design-7e0a009f68c5fd37fc690f7ee9cc0740_screen.jpg);
+}
+footer {
+    height: 100px;
+    background-color: #222222;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
