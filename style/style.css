@@ -7,10 +7,15 @@ header {
     height: 60px;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     background-color: #000;
     color: #fff;
 }
 header span {
+    background-color: #4a4a4a;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 10px;
 
 }
 main {
@@ -39,4 +44,40 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.big.fas {
+    padding: 0 30px;
+}
+footer .end {
+    background-color: #4A4A4A;
+    height: 100%;
+}
+footer .end span {
+    padding: 0 30px;
+    vertical-align: middle;
+    line-height: 100px;
+    font-size: 30px;
+    color: red;
+
+}
+footer .a-v a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+footer .a-v a div {
+    text-align: center;
+    margin-top: 5px;
+}
+footer .options a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+footer .options a div {
+    text-align: center;
+    margin-top: 5px;
+}
+.fa-share-square {
+    color: green;
 }
