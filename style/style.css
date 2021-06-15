@@ -2,6 +2,7 @@
     box-sizing: border-box; 
     margin: 0; 
     padding: 0;
+    background-color: #000;
 }
 header {
     height: 60px;
@@ -19,19 +20,17 @@ header span {
 
 }
 main {
+    margin: 0 auto;
+    width: 90%;
     height: calc(100vh - 160px);
     background-color: #000;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: auto;
 }
-main .row {
-    height: 200px;
-    display: flex;
-    justify-content: space-around;
-}
-main .row .user {
+main .user {
     width: 20%;
-    height: 80%;
+    height: 30%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
