@@ -31,12 +31,22 @@ main .container{
     justify-content: space-around;
 }
 main .user {
+    position: relative;
     width: 18%;
     height: 16%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(../img/white-background-zoom-background-template-des-design-7e0a009f68c5fd37fc690f7ee9cc0740_screen.jpg);
+}
+main .user span {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 10px;
 }
 footer {
     height: 100px;
